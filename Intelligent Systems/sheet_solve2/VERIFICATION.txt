@@ -1,0 +1,16 @@
+HYBRID WAREHOUSE DELIVERY AGENT — VERIFICATION
+Scope: mini-project only; separate exercises are excluded.
+
+Automated tests: 4 passed.
+- BFS reaches target shelf.
+- Reactive safety rejects occupied cells.
+- Planner avoids blocked cells.
+- Three seeds each deliver ten orders with zero simulated collisions.
+
+Simulation output:
+Hybrid Warehouse Delivery Agent — 10 orders per seed
+seed=0: {'steps': 223, 'waits': 27, 'replans': 32, 'collisions': 0, 'delivered': 10}
+seed=1: {'steps': 183, 'waits': 11, 'replans': 25, 'collisions': 0, 'delivered': 10}
+seed=2: {'steps': 227, 'waits': 27, 'replans': 32, 'collisions': 0, 'delivered': 10}
+
+Safety note: zero collisions is a result within this simplified simulation only.
